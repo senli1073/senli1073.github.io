@@ -10,27 +10,30 @@ Demo: https://senli1073.github.io/
 
 
 
-## Get start
+## Get Start
 ### 1. Fork this repository
 The repository name should be `<username>.github.io`, which will also be your website's URL.
 
 ### 2. Edit page content
 
-``.
+```.
+.
 ├── contents
 └── static
     ├── assets
     │   └── img
     ├── css
-    └── js``
+    └── js```
+```
 
 Clone your own repository named  `<username>.github.io`, and edit the markdown files in `contents/`.
 
-### 3. Commit and push
+### 3. Update
 
-``git commit -am "<commit>"``
-
-``git push``
+```git commit -am '<commit>'
+git commit -am "..."
+git push
+```
 
 
 
