@@ -1,13 +1,12 @@
-# A simple Github Pages template for academic personal websites.
+# A simple Github Pages template for academic personal website.
 
 [![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot.jpg)](https://senli1073.github.io/)
 
 ## Introduction
 
-This is an academic personal websites template based on bootstrap.
+This is an academic personal website template based on bootstrap.
 
 Demo: https://senli1073.github.io/
-
 
 
 ## Get Start
@@ -15,6 +14,7 @@ Demo: https://senli1073.github.io/
 The repository name should be `<username>.github.io`, which will also be your website's URL.
 
 ### 2. Edit page content
+The directory structure is as follows:
 
 ```.
 .
@@ -23,17 +23,29 @@ The repository name should be `<username>.github.io`, which will also be your we
     ├── assets
     │   └── img
     ├── css
-    └── js```
+    └── js
 ```
 
-Clone your own repository named  `<username>.github.io`, and edit the markdown files in `contents/`.
+(1) Go to the folder where you want to store your project, and clone the new repository:
+```
+git clone https://github.com/<username>/<username>.github.io.git
+```
 
-### 3. Update
+(2) Edit the content of each section, which corresponds to `contents/*.md`.
 
-```git commit -am '<commit>'
-git commit -am "..."
+(3) Edit the title, copyright information and other text of the website in `contents/config.yml`
+
+(4) Replace background images and photos with new ones for your web pages in `static/assets/img`
+
+(5) Push it: 
+```
+git commit -am 'my website'
 git push
 ```
+
+### 3. Enjoy
+
+Fire up a browser and go to `https://<username>.github.io`
 
 
 
