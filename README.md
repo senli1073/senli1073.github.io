@@ -13,7 +13,13 @@ Demo: https://senli1073.github.io/
 ### 1. Fork this repository
 The repository name should be `<username>.github.io`, which will also be your website's URL.
 
+
 ### 2. Edit page content
+
+(1) Go to the folder where you want to store your project, and clone the new repository:
+```
+git clone https://github.com/<username>/<username>.github.io.git
+```
 The directory structure is as follows:
 
 ```.
@@ -24,11 +30,6 @@ The directory structure is as follows:
     │   └── img
     ├── css
     └── js
-```
-
-(1) Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
 ```
 
 (2) Edit the content of each section, which corresponds to `contents/*.md`.
@@ -42,6 +43,7 @@ git clone https://github.com/<username>/<username>.github.io.git
 git commit -am 'my website'
 git push
 ```
+
 
 ### 3. Enjoy
 
