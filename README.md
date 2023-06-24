@@ -6,6 +6,8 @@
 
 This is an academic personal website template based on bootstrap.
 
+This template supports markdown files as input content, and you don't need to build the webpage before deployment. When the webpage is loaded, the markdown files will be automatically parsed and embedded into the page.
+
 Demo: https://senli1073.github.io/
 
 
@@ -36,7 +38,7 @@ The directory structure is as follows:
 
 (3) Edit the title, copyright information and other text of the website in `contents/config.yml`
 
-(4) Replace background images and photos with new ones for your web pages in `static/assets/img`
+(4) Replace background image and photo with new ones for your web pages in `static/assets/img`
 
 (5) Push it: 
 ```
