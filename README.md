@@ -42,7 +42,7 @@ The directory structure is as follows:
 
 (5) Push it: 
 ```
-git commit -am 'my website'
+git commit -am 'init'
 git push
 ```
 
