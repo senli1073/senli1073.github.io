@@ -55,4 +55,4 @@ Fire up a browser and go to `https://<username>.github.io`
 
 ## License
 
-Copyright 2023, Sen Li and controlled via the MIT license. You can copy and mess with this template.
+Copyright 2023, Sen Li and controlled via the MIT license, a permissive open-source (free software) license. You can copy and mess with this template.
