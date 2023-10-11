@@ -1,6 +1,6 @@
 
-- The first prize in atural science of the universe, 2021.
+- Jiangsu Province Excellent Graduation Project, 2022.
   
-- The first prize in atural science of the universe, 2022.
+- Freshman Academic Scholarship of CUMT, 2022.
 
-- The first prize in atural science of the universe, 2022.
+- First-class Academic Scholarship of CUMT, 2023.

@@ -1,18 +1,6 @@
 
-- Name, Name, Name. Title. Global Conference 2021 [(Paper)](/)
+- *<strong><strong>Li, S.</strong></strong>, Yang, X., Cao, A., Wang, C., Liu, Y., Liu, Y., & Niu, Q. (2023). Seismogram Transformer: A generic deep learning backbone network for multiple earthquake monitoring tasks. arXiv preprint arXiv:2310.01037.* [[Paper]](https://arxiv.org/abs/2310.01037) [[Code]](https://github.com/senli1073/SeisT)
 
-- Name, Name, Name. Title. Global Conference 2022 [(Paper)](/)
+- *Cao, A., Liu, Y., Yang, X., <strong><strong>Li, S.</strong></strong>, Wang, C., Bai, X. & Liu, Y. (2022). Physical index and Data Fusion-Driven method for coal burst prediction in time sequence. Journal of China Coal Society.* [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
 
-- Name, Name, Name. Title. Global Conference 2023 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2024 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2025 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2022 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2023 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2024 [(Paper)](/)
-
-- Name, Name, Name. Title. Global Conference 2025 [(Paper)](/)
+- *Yang, X., Yu, X., Zhang, C., <strong><strong>Li, S.</strong></strong>, & Niu, Q. (2021). MineGPS: battery-free localization base station for coal mine environment. IEEE Communications Letters.* [[Paper]](https://ieeexplore.ieee.org/abstract/document/9433550)

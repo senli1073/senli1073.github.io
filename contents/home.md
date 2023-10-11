@@ -1,5 +1,5 @@
 
-He/She is currently pursuing the PhD degree in computer science, advised by professor Name, at School of Computer Science and Technology, China University of Mining and Technology.
+He is currently pursuing a Master's Degree in computer science, at School of Computer Science and Technology, China University of Mining and Technology.
 
 &emsp;
 #### Email
@@ -14,4 +14,4 @@ sli[at]cumt.edu.cn
 
 &emsp;
 #### Research Intersts
-Computer Vision, Natural Language Processing.
+Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
