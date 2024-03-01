@@ -9,5 +9,5 @@ sli[at]cumt.edu.cn
 
 2018.08 - 2022.06, Data Science and Big Data Technology, School of Computer Science and Technology, China University of Mining and Technology.
 
-#### Research Intersts
+#### Research Interests
 Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
