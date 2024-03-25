@@ -1,12 +1,16 @@
 # A simple Github Pages template for academic personal website.
 
+![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
+
+## Preview
 [![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot_full.png)](https://senli1073.github.io/)
+
 
 ## Introduction
 
-This is an academic personal website template based on bootstrap.
+This is an academic personal website template based on [bootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
 
-This template supports markdown files as input content, and you don't need to build the webpage before deployment. When the webpage is loaded, the markdown files will be automatically parsed and embedded into the page.
+The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
 
 Demo: https://senli1073.github.io/
 
@@ -34,9 +38,9 @@ The directory structure is as follows:
     └── js
 ```
 
-(2) Edit the content of each section, which corresponds to `contents/*.md`.
+(2) Modify the content of each section, which corresponds to `contents/*.md`.
 
-(3) Edit the title, copyright information and other text of the website in `contents/config.yml`
+(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
 
 (4) Replace background image and photo with new ones for your web pages in `static/assets/img`
 
@@ -55,4 +59,4 @@ Fire up a browser and go to `https://<username>.github.io`
 
 ## License
 
-Copyright 2023, Sen Li and controlled via the MIT license, a permissive open-source (free software) license. You can copy and mess with this template.
+Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
