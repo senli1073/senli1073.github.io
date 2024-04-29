@@ -1,4 +1,3 @@
-
 He is currently pursuing a Master's Degree in computer science, at School of Computer Science and Technology, China University of Mining and Technology.
 
 #### Email
