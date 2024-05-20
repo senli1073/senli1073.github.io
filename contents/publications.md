@@ -1,4 +1,4 @@
-- <strong>S. Li</strong>, K. Fan, A. Cao*, X. Yang*, Y. Liu, and C. Wang (2024). Label Noise-Robust Learning for Microseismic Arrival Time Picking. <strong>Submitted.</strong> [[Code]](https://github.com/senli1073/LNRL)
+- <strong>S. Li</strong>, K. Fan, A. Cao*, X. Yang*, Y. Liu, and C. Wang (2024). Label Noise-Robust Learning for Microseismic Arrival Time Picking. <strong>Under Review.</strong> [[Code]](https://github.com/senli1073/LNRL)
 
 - X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep transfer learning for P-wave arrival identification and automatic seismic source location in underground mines. <strong>In Revision.</strong>
 
