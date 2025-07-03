@@ -1,13 +1,16 @@
-- National Scholarship of Graduate Student, 2024.
 
-- First-prize Scholarship of CUMT, 2024.
+- Outstanding Graduate Award (CUMT), 2025.
 
-- First-prize Scholarship of CUMT, 2023.
+- National Scholarship for Graduate Student, 2024.
 
-- Freshman Scholarship of CUMT, 2022.
+- First-Prize Scholarship (CUMT), 2024.
 
-- Excellent Graduation Project of Jiangsu Province, 2022.
+- First-Prize Scholarship (CUMT), 2023.
 
-- First-prize Enterprise Scholarship of CUMT, 2020.
+- Freshman Scholarship (CUMT), 2022.
 
-- First-prize Scholarship of CUMT, 2019.
+- Outstanding Graduation Project Award (Jiangsu Province), 2022.
+
+- First-Prize Enterprise Scholarship (CUMT), 2020.
+
+- First-Prize Scholarship (CUMT), 2019.
