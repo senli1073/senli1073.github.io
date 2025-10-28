@@ -57,13 +57,20 @@ git commit -am 'init'
 git push
 ```
 
+### 3. Setup
+(1) Under your repository name, click `Settings`.
 
-### 3. Enjoy
+(2) In the "Code and automation" section of the sidebar, click `Pages`.
+
+(3) Under "Build and deployment", under "Source", select Deploy from a branch. Then, use the branch dropdown menu and select a publishing source.
+
+### 4. Enjoy
 
 Fire up a browser and go to `https://<username>.github.io`
 
+> Note that it can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub.
 
 
 ## License
 
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+Copyright Sen Li, 2023-2025. Licensed under an MIT license. You can copy and mess with this template.
