@@ -13,5 +13,5 @@ M.E., Computer Science and Technology, China University of Mining and Technology
 B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
 
