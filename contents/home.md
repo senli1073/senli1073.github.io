@@ -1,7 +1,7 @@
 
 
 
-Enjoy taking on challenging work related to data or finance, familiar with SQL and cloud database work environments, skilled in using Power Query and Tableau for automated data processing and data visualization, with a finance-related certification of ACCA (12/13).
+Enjoy taking on challenging work related to data or finance, familiar with SQL and cloud database work environments, skilled in using Power Query and Tableau for automated data processing and data visualization, with a finance-related certification of ACCA (13/13).
 
 #### Contact
 
