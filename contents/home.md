@@ -1,19 +1,20 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![JovanZhaoScorpiO](https://img.shields.io/badge/JovanZhaoScorpiO-github-blue?logo=github)](https://github.com/JovanZhaoScorpiO)
 
-He is an incoming Ph.D. student in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+Incoming Ph.D. student in 2026 in the Department of Computer Science and Technology (CS) at University of Science and Technology in China.
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: JovanZhaoPolyu[at]outlook.com
+Tel: (+86)15665860793 or (+852)57491883
 
 #### Education
 M.E. in Computer Science and Technology,
-China University of Mining and Technology, 2022–2025
+Hong Kong Polytechnic University, 2023–2025.\
 
-B.E. in Data Science and Big Data Technology,
-China University of Mining and Technology, 2018–2022
+B.E. in Mathematics,
+ShanDong University, 2017–2021.
 
 #### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
+Graph Mining; Graph Embedding; Graph Attention Network; Federated Graph Machine Learning 
