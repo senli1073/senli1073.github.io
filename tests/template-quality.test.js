@@ -77,6 +77,7 @@ assert.doesNotMatch(index, /skeleton-avatar/, 'avatar should not use skeleton pl
 assert.doesNotMatch(mainCss, /\.skeleton-nav\b/, 'navbar skeleton CSS should not be kept');
 assert.doesNotMatch(mainCss, /\.skeleton-hero\b/, 'hero text skeleton CSS should not be kept');
 assert.doesNotMatch(mainCss, /\.skeleton-avatar\b/, 'avatar skeleton CSS should not be kept');
+assert.match(mainCss, /\.page-skeleton\s*\{[\s\S]*top:\s*25rem/, 'section skeleton should start below the real hero area');
 assert.match(mainCss, /\.page-skeleton\s*\{[\s\S]*padding-top:\s*2\.4rem/, 'section skeleton placeholders should sit one text line lower');
 assert.match(mainCss, /\.site-loading \.top-section\s*\{[\s\S]*linear-gradient/, 'hero background should keep a loading placeholder');
 assert.match(mainCss, /\.site-loading \.top-section::after\s*\{[\s\S]*animation:\s*skeleton-shimmer/, 'hero background placeholder should shimmer while loading');
