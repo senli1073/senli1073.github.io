@@ -110,3 +110,128 @@ section .main-body{
 }
 
 
+/* ============================================================
+   Projects 模块样式
+   设计原则：
+   - 与 Research/Outputs 区块保持一致的学术主页风格
+   - 复用现有配色、字体、间距变量
+   - 响应式适配移动端
+   ============================================================ */
+
+/* 单个项目卡片容器 */
+.project-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* 最后一个项目不需要底部边框和间距 */
+.project-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* 项目标题 — 与 section h2 保持同一字体族，但略小 */
+.project-title {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    color: var(--h-title-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+}
+
+/* 项目副标题 */
+.project-subtitle {
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #6c757d;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+/* 项目简介 */
+.project-description {
+    font-size: 1.05rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* 标签容器 */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+/* 单个标签 — 复用现有主题色系，采用小圆角药丸风格 */
+.project-tag {
+    display: inline-block;
+    background: rgba(41, 55, 240, 0.08);  /* --bs-blue #2937f0 淡化 */
+    color: var(--bs-blue);
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+/* PDF 查看按钮 — 与网站整体简洁风格一致 */
+.project-pdf-btn {
+    display: inline-block;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--bs-blue);
+    padding: 0.55rem 1.4rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    line-height: 1.5;
+}
+
+.project-pdf-btn:hover {
+    background-color: #1e2fd9;  /* 比 --bs-blue 略深 */
+    box-shadow: 0 2px 8px rgba(41, 55, 240, 0.25);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 767px) {
+    .project-title {
+        font-size: 1.35rem;
+    }
+
+    .project-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+        line-height: 1.65;
+    }
+
+    .project-tag {
+        font-size: 0.72rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .project-pdf-btn {
+        font-size: 0.85rem;
+        padding: 0.45rem 1.1rem;
+    }
+}
+
