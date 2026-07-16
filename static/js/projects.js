@@ -10,6 +10,17 @@
     'use strict';
 
     /**
+     * 简单的 HTML 转义，防止 XSS
+     * @param {string} str - 原始字符串
+     * @returns {string} 转义后的安全字符串
+     */
+    function escapeHTML(str) {
+        var div = document.createElement('div');
+        div.appendChild(document.createTextNode(String(str)));
+        return div.innerHTML;
+    }
+
+    /**
      * 生成单个项目的 HTML 结构
      * @param {Object} project - 项目数据对象
      * @param {string} project.title       - 项目标题
@@ -23,57 +34,32 @@
         // 构建标签 HTML
         var tagsHTML = '';
         if (project.tags && project.tags.length > 0) {
-            tagsHTML = '
-';
+            tagsHTML = '<div class="project-tags">';
             project.tags.forEach(function (tag) {
-                tagsHTML += '' + escapeHTML(tag) + '';
+                tagsHTML += '<span class="project-tag">' + escapeHTML(tag) + '</span>';
             });
-            tagsHTML += '
-';
+            tagsHTML += '</div>';
         }
 
         // 构建 PDF 按钮（仅当 pdf 字段存在时）
         var pdfButtonHTML = '';
         if (project.pdf) {
             pdfButtonHTML =
-                '' +
-                '\u{1F4C4} View Case Study (PDF)' +
-                '';
+                '<a class="project-pdf-btn" href="' + escapeHTML(project.pdf) + '" target="_blank" rel="noopener noreferrer">' +
+                '&#128196; View Case Study (PDF)' +
+                '</a>';
         }
 
         // 组装完整项目卡片
         return (
-            '
-' +
-            '
-' + escapeHTML(project.title) + '
-' +
-            '
-
-' + escapeHTML(project.subtitle) + '
-
-' +
-            '
-
-' + escapeHTML(project.description) + '
-
-' +
+            '<div class="project-item">' +
+            '<h3 class="project-title">' + escapeHTML(project.title) + '</h3>' +
+            '<div class="project-subtitle">' + escapeHTML(project.subtitle) + '</div>' +
+            '<p class="project-description">' + escapeHTML(project.description) + '</p>' +
             tagsHTML +
             pdfButtonHTML +
-            '
-'
+            '</div>'
         );
-    }
-
-    /**
-     * 简单的 HTML 转义，防止 XSS
-     * @param {string} str - 原始字符串
-     * @returns {string} 转义后的安全字符串
-     */
-    function escapeHTML(str) {
-        var div = document.createElement('div');
-        div.appendChild(document.createTextNode(str));
-        return div.innerHTML;
     }
 
     /**
@@ -85,11 +71,7 @@
         if (!container) return;
 
         if (!projects || projects.length === 0) {
-            container.innerHTML = '
-
-No projects yet.
-
-';
+            container.innerHTML = '<p>No projects yet.</p>';
             return;
         }
 
@@ -116,11 +98,7 @@ No projects yet.
                 console.error('Projects loader error:', error);
                 var container = document.getElementById('projects-md');
                 if (container) {
-                    container.innerHTML = '
-
-Unable to load projects at this time.
-
-';
+                    container.innerHTML = '<p>Unable to load projects at this time.</p>';
                 }
             });
     });
