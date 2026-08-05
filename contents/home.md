@@ -1,19 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is an incoming Ph.D. student in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+Enjoy taking on challenging work related to data or finance, familiar with SQL and cloud database work environments, skilled in using Power Query and Tableau for automated data processing and data visualization, with a finance-related certification of ACCA (13/13).
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: xzxgsjgs@163.com
 
 #### Education
-M.E. in Computer Science and Technology,
-China University of Mining and Technology, 2022–2025
+2024.08-present, Industrial Economics, Tianjin University of Finance and Economics \
+2019.08-2023.06, Economics, Tianjin University of Commerce
 
-B.E. in Data Science and Big Data Technology,
-China University of Mining and Technology, 2018–2022
 
-#### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
+#### Interests
+Data Analysis and Financial Management

@@ -1,13 +1,11 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- First-Prize Graduate Academic Scholarship , 2025.
 
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
+- Outstanding Graduate Award, 2023.
 
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
+- First-Prize National College Economic Decision-Making Virtual Simulation Competition  , 2021.
 
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
+- Won the title of "Merit Student" for three consecutive years in Tianjin University of Commerce,2020-2023.
 
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+- Won the university-level Scholarship for four consecutive years in Tianjin University of Commerce, 2019-2023.
 

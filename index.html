@@ -25,11 +25,15 @@
         rel="stylesheet" />
 
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
 
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
+    <!-- For Compatability -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
     <!-- Markdown -->
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
@@ -64,38 +68,22 @@
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+    <!-- Projects loader -->
+    <script type="text/javascript" src="static/js/projects.js"></script>
 
 </head>
 
-<body id="page-top" class="site-loading">
-    <div id="page-skeleton" class="page-skeleton" aria-hidden="true">
-        <div class="skeleton-section skeleton-section-light">
-            <div class="container px-5">
-                <div class="skeleton-block skeleton-section-title"></div>
-                <div class="skeleton-block skeleton-line skeleton-line-long"></div>
-                <div class="skeleton-block skeleton-line"></div>
-                <div class="skeleton-block skeleton-line skeleton-line-short"></div>
-            </div>
-        </div>
-        <div class="skeleton-section skeleton-section-gray">
-            <div class="container px-5">
-                <div class="skeleton-block skeleton-section-title"></div>
-                <div class="skeleton-block skeleton-line skeleton-line-long"></div>
-                <div class="skeleton-block skeleton-line"></div>
-                <div class="skeleton-block skeleton-line skeleton-line-short"></div>
-            </div>
-        </div>
-    </div>
-
+<body id="page-top">
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">&nbsp;</a>
+            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,15 +91,27 @@
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul id="navbar-items" class="navbar-nav ms-auto me-4 my-3 my-lg-0"></ul>
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#publications">OUTPUTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#projects">PROJECTS</a>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" id="top-section">
-        <div class="top-section-bg top-section-bg-active" aria-hidden="true"></div>
-        <div class="top-section-bg" aria-hidden="true"></div>
+    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -123,22 +123,68 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.jpeg" alt="Profile photo">
+            <img class="shadow" src="static/assets/img/photo.png">
         </div>
     </div>
     <!-- Photo -->
     
-    <main id="sections"></main>
+    <!-- Home -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
+        <div class="container px-5">
+            <header>
+                <h2 id="home-subtitle"> </h2>
+                <!-- <span class="bi bi-list"></span> -->
+            </header>
+            <div class="main-body" id="home-md"></div>
+        </div>
+    </section>
+    <!-- Home -->
 
+    <!-- Publications -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+        <div class="container px-5">
+            <header>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;OUTPUTS</h2>
+            </header>
+            <div class="main-body" id="publications-md"></div>
+
+        </div>
+    </section>
+    <!-- Publications  -->
+
+    <!-- Awards -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+        <div class="container px-5">
+            <header>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+            </header>
+            <div class="main-body" id="awards-md"></div>
+
+        </div>
+    </section>
+    <!-- Awards -->
+
+    <!-- Projects -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="projects">
+        <div class="container px-5">
+            <header>
+                <h2 id="projects-subtitle"><i class="bi bi-folder-fill"></i>&nbsp;PROJECTS</h2>
+            </header>
+            <div class="main-body" id="projects-md">
+                <!-- 项目列表由 projects.js 动态生成 -->
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/username">Github</a>
+                <a id="github-link" href="https://github.com/senli1073">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/username/username.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
