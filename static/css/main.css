@@ -1,8 +1,8 @@
 @import "./styles.css";
 
 
-:root{
-    --h-title-color:#3948d2;
+:root {
+    --h-title-color: #3948d2;
     --top-section-overlay: 0.52;
     --skeleton-base: #e4e7eb;
     --skeleton-highlight: #f5f7fa;
@@ -169,17 +169,27 @@ body {
     animation: skeleton-shimmer 1450ms ease-in-out infinite;
 }
 
-section header h2{
+section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
 }
 
-section .main-body{
+section .main-body {
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
+    text-align: justify;
+}
+
+/* Content column: 80% of the viewport on large screens (10% whitespace
+   each side), capped at 1200px for readability on very wide screens.
+   Bootstrap's own caps are 960/1140/1320px at lg/xl/xxl. */
+@media (min-width: 992px) {
+    .container {
+        max-width: min(1150px, 80vw);
+    }
 }
 
 
@@ -219,7 +229,7 @@ section .main-body{
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-65px, max(-100px, calc(-1*100vw/12)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
