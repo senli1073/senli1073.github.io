@@ -1,6 +1,6 @@
 #### Published
 
-- <strong>S. Li</strong>*, X. Yang, S. M. Mousavi, A. Cao, K. Fan, Y. Liu, C. Wang, and Q. Niu (2026). Learning Earthquake Wave Arrival Time Picking from Labels with Inaccuracies. <strong>Scientific Reports</strong>. [[Paper]](doi.org/10.1038/s41598-026-57601-3) [[Code]](https://github.com/senli1073/LaNCor)
+- <strong>S. Li</strong>*, X. Yang, S. M. Mousavi, A. Cao, K. Fan, Y. Liu, C. Wang, and Q. Niu (2026). Learning Earthquake Wave Arrival Time Picking from Labels with Inaccuracies. <strong>Scientific Reports</strong>. [[Paper]](https://doi.org/10.1038/s41598-026-57601-3) [[Code]](https://github.com/senli1073/LaNCor)
 
 - X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
 
