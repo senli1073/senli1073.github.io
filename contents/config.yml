@@ -16,7 +16,7 @@ license-link:
 sections:
   - id: home
     nav: HOME
-    title: Sen Li&ensp;|&ensp;李森
+    title: Sen Li
     href: '#page-top' # Default to '#<id>' if not specified
   - id: publications
     nav: PUBLICATIONS
