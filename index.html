@@ -22,13 +22,55 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
 
-    <!-- 自定义字体：英文 Times New Roman，中文楷体 -->
+    <!-- 自定义字体 + 手机端适配 -->
     <style>
         body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, td, th, strong, em,
         nav, footer, .navbar-brand, .nav-link, .font-alt, .display-3 {
             font-family: "Times New Roman", Times, "Tinos",
                          "KaiTi", "楷体", "STKaiti", "Kaiti SC", "LXGW WenKai",
                          serif !important;
+        }
+
+        /* 防止长文本撑出横向滚动条 */
+        html, body {
+            overflow-x: hidden;
+        }
+        main p, main li, main a {
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        /* 以下只在手机（屏幕宽度 ≤ 576px）上生效 */
+        @media (max-width: 576px) {
+            .container.px-5 {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+            #top-section-bg-text {
+                font-size: 1.8rem !important;
+                line-height: 1.4 !important;
+            }
+            .navbar-brand {
+                font-size: 1.15rem !important;
+            }
+            #avatar img {
+                max-width: 40vw !important;
+                height: auto !important;
+            }
+            main {
+                font-size: 15px;
+                line-height: 1.75;
+            }
+            main h2 {
+                font-size: 1.5rem !important;
+            }
+            main h4 {
+                font-size: 1.1rem !important;
+                margin-top: 1.2rem;
+            }
+            main ul, main ol {
+                padding-left: 1.2rem;
+            }
         }
     </style>
 
@@ -43,26 +85,26 @@
         // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
+                packages: {},
+                inlineMath: [
                     ['$', '$'],
                     ['\\(', '\\)']
                 ],
-                displayMath: [             // start/end delimiter pairs for display math
+                displayMath: [
                     ['$$', '$$'],
                     ['\\[', '\\]']
                 ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                formatError:               // function called when TeX syntax errors occur
+                processEscapes: false,
+                processEnvironments: true,
+                processRefs: true,
+                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+                tags: 'all',
+                tagSide: 'right',
+                tagIndent: '0.8em',
+                useLabelIds: true,
+                maxMacros: 10000,
+                maxBuffer: 5 * 1024,
+                formatError:
                     (jax, err) => jax.formatError(err)
             }
         };
@@ -101,7 +143,7 @@
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">&nbsp;</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
+                菜单
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -125,7 +167,7 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.jpeg" alt="Profile photo">
+            <img class="shadow" src="static/assets/img/photo.jpeg" alt="头像">
         </div>
     </div>
     <!-- Photo -->
