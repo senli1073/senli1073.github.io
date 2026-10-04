@@ -1,14 +1,26 @@
-#### Published
+#### 论文
 
-- <strong>S. Li</strong>*, X. Yang, S. M. Mousavi, A. Cao, K. Fan, Y. Liu, C. Wang, and Q. Niu (2026). Learning Earthquake Wave Arrival Time Picking from Labels with Inaccuracies. <strong>Scientific Reports</strong>. [[Paper]](https://doi.org/10.1038/s41598-026-57601-3) [[Code]](https://github.com/senli1073/LaNCor)
+1. Complete Ensemble Empirical Mode Decomposition Integrated with Wavelet Thresholding for Denoising PPG Signals Algorithm.
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+2. 基于改进小波阈值函数和全尺度 Retinex 的红外图像融合增强算法（CSCD 核心）.
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+3. 高纯度脉搏信号处理电路的设计与实现（湖南理工学院学报）.
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+#### 发明专利
 
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
+- 一种基于参数估计的第二心音宽分裂检测方法（ZL202310076875.9）
+- 一种基于 CEEMDAN 联合小波阈值的 PPG 信号去噪方法（ZL202311658940.5）
 
+
+#### 实用新型专利
+
+- 一种汽车玻璃（ZL202020263339.1）
+
+
+#### 软件著作权
+
+- 第一心音特征分布评估系统（2023SR0548110）
+- 一种第三心音智能检测系统（2023SR0419096）
+- 一种基于心音分析的 ASD 诊断系统（2023SR0419127）
+- 无人机飞行路径规划系统（2021SR1660811）

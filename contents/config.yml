@@ -1,28 +1,32 @@
-title: EthanLiu's Homepage
-page-top-title: EthanLiu
-top-section-bg-text: Data Science
+title: 刘智的个人主页
+page-top-title: 刘智
+top-section-bg-text: 信号处理 · 嵌入式人工智能
 backgrounds:
   - static/assets/background/background_0.jpeg
   - static/assets/background/background_1.jpeg
 background-interval-ms: 7000
 background-overlay: 0.52
-copyright-text: '&copy; Sen Li 2023-2026. All Rights Reserved.'
+copyright-text: '&copy; 刘智 2026. All Rights Reserved.'
 github-link:
   text: Github
-  href: https://github.com/senli1073
+  href: https://github.com/EthanLiu-001
 license-link:
   text: License
-  href: https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE
+  href: https://github.com/EthanLiu-001/EthanLiu-001.github.io/blob/main/LICENSE
 sections:
   - id: home
-    nav: HOME
-    title: Sen Li&ensp;|&ensp;李森
+    nav: 主页
+    title: 刘智&ensp;|&ensp;Zhi Liu
     href: '#page-top' # Default to '#<id>' if not specified
+  - id: experience
+    nav: 经历
+    title: 实习与项目经历
+    icon: bi-briefcase-fill
   - id: publications
-    nav: PUBLICATIONS
-    title: PUBLICATIONS
+    nav: 成果
+    title: 论文与知识产权
     icon: bi-file-text-fill
   - id: awards
-    nav: AWARDS
-    title: AWARDS
+    nav: 荣誉
+    title: 荣誉奖项
     icon: bi-award-fill
