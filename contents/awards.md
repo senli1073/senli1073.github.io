@@ -1,13 +1,10 @@
-
-- Outstanding Graduate Award (CUMT), 2025.
-
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
-
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
-
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
-
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+* \- 2023.12 全国研究生数学建模竞赛"华为杯"三等奖
+* \- 2022.12 湖南省研究生计算机创新大赛一等奖
+* \- 2022.10 研究生人工智能创新赛三等奖
+* \- 2020.12 机器人公开赛暨国际公开赛二等奖
+* \- 2020.10 全国大学生电子设计竞赛（TI 杯）湖南省二等奖
+* \- 研究生一等学业奖学金
+* \- 三好研究生标兵
+* \- 湖南省普通高等学校优秀毕业生
+* \- 优秀共青团干部
 
